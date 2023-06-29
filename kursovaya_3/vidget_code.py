@@ -6,7 +6,7 @@ import functions
 content = functions.get_file_data("operations.json")
 
 executed_operations_list = functions.do_sort_by_approv(content)
-
+#print(executed_operations_list)
 functions.buble_sort(executed_operations_list)
 
 #Код ниже запускает иттерацию по пяти последним операциям
